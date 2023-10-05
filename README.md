@@ -93,7 +93,7 @@ Feel free to reach out to me at [yasukoomiyazawa@gmail.com] for collaboration op
 
 ## Portfolio Website
 
-Check out my portfolio website [here](https://yasukomiyazawa.netlify.app/)
+Check out my portfolio website [here](https://yasukomiyazawa.com/)
 !
 
 Thank you for visiting! 🚀
