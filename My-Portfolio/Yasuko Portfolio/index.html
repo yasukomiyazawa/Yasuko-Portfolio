@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yasuko Miyazawa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <a href="#profile"><img class="logo" src="./assets/portfolio-logo.png"/></a>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <a href="#profile"><img class="logo" src="./assets/portfolio-logo.png"/></a>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <!-- Move .menu-links class to the menu itself -->
+      <div class="menu-links">
+        <ul>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <!-- <li><a href="#experience" onclick="toggleMenu()">Experience</a></li> -->
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+      </div>
+    </nav>    
+    <section id="profile">
+      <div class="section__profile-pic-container">
+        <img src="./assets/profile-pic.png" class="profile-pic" alt="Yasuko profile picture" />
+      </div>
+      <div class="section__text">
+        <!-- <p class="section__text__p1">Hello, I'm</p> -->
+        <h1 class="title">Front-End Web Developer 👋🏻</h1>
+        <p class="section__text__p2">Hi, I'm Yasuko Miyazawa. </br> A passionate Front-End Developer based in Japan.📍 </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Miyazawa, Yasuko Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://linkedin.com/in/yasuko-miyazawa-233281202/', '_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/yasukomiyazawa', '_blank')"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="tech-stack-container">
+      <div class="tech-stack">
+        <h2 class="tech-stack-heading">Tech Stack</h2>
+        <div class="tech-stack-icons-container">
+
+          <div>
+            <img class="ts-icons" src="./assets/html.svg" alt="html logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/css.svg" alt="css logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/js.svg" alt="js logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/ts.svg" alt="ts logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/react.svg" alt="react logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/next.svg" alt="nextjs logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/tailwind.svg" alt="tailwind logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/sass.svg" alt="sass logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/vite.svg" alt="vite logo">
+          </div>
+          <div>
+            <img class="ts-icons" src="./assets/github.png" alt="github logo">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="section__pic-container"
+          />
+        <p class="text-container">
+          I am a <span>Junior Front-End Software Engineer</span> with a passion for creating user-friendly and 
+          visually appealing web applications. I am eager to contribute skills in <span>HTML, CSS, 
+            JavaScript/TypeScript, React, and Next.js.</span> I am familiar with build tools like Vite 
+          and experienced in digital marketing with a focus on data analysis, project
+           management, and user engagement strategies.
+        </p>
+
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+
+    <section id="projects">
+      <p class="section__text__p1">Check this out!</p>
+      <h1 class="title">My Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 5"
+                class="project-img"
+              />
+            </div>
+            <div class="project-info">
+              <h2 class="experience-sub-title project-title">Mama Silog Website</h2>
+              <p class="project-description">My latest freelance project for an online Filipino restaurant based in Japan!</p>
+              <div class="tech-stack-project">
+
+                <img src="./assets/html.svg" alt="">
+                <img src="./assets/css.svg" alt="">
+                <img src="./assets/react.svg" alt="">
+                <img src="./assets/ts.svg" alt="">
+                <img class="next-pic" src="./assets/next.svg" alt="">
+
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/yasukomiyazawa/mama-silog', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://mama-silog.vercel.app/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="project-info">
+              <h2 class="experience-sub-title project-title">Car Rental</h2>
+              <p class="project-description">A dynamic car booking platform with seamless user experiences.</p>
+              <div class="tech-stack-project">
+
+                <img src="./assets/html.svg" alt="">
+                <img src="./assets/css.svg" alt="">
+                <img src="./assets/react.svg" alt="">
+                <img src="./assets/ts.svg" alt="">
+                <img class="next-pic" src="./assets/next.svg" alt="">
+
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/yasukomiyazawa/car-website', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://car2go.vercel.app/?model=m8&manufacturer=bmw', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <div class="project-info">
+              <h2 class="experience-sub-title project-title">Book Searching</h2>
+              <p class="project-description">An interactive book search platform with a modern user interface.</p>
+              <div class="tech-stack-project">
+
+                <img src="./assets/html.svg" alt="">
+                <img src="./assets/css.svg" alt="">
+                <img src="./assets/react.svg" alt="">
+                <img src="./assets/tailwind.svg" alt="">
+
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/yasukomiyazawa/book-search-website', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://bookie-library.netlify.app/book', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="project-info">
+              <h2 class="experience-sub-title project-title">Online Grocery</h2>
+              <p class="project-description">An e-commerce platform for online grocery shopping.</p>
+              <div class="tech-stack-project">
+
+                <img src="./assets/html.svg" alt="">
+                <img src="./assets/css.svg" alt="">
+                <img src="./assets/js.svg" alt="">
+                <img src="./assets/sass.svg" alt="">
+
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/yasukomiyazawa/grocery-store', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://freshfinds.netlify.app/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <div class="project-info">
+              <h2 class="experience-sub-title project-title">Travel Agency</h2>
+              <p class="project-description">An immersive travel experience website for showcasing the beauty of Palawan, Philippines.</p>
+              <div class="tech-stack-project">
+
+                <img src="./assets/html.svg" alt="">
+                <img src="./assets/css.svg" alt="">
+                <img src="./assets/js.svg" alt="">
+                <img src="./assets/sass.svg" alt="">
+
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://github.com/yasukomiyazawa/travel-site', '_blank')"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://discoverpalawan.netlify.app/', '_blank')"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+            
+
+
+
+          
+
+          
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:yasukomiyazawa08@gmail.com">yasukoomiyazawa@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/yasuko-miyazawa-233281202/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 <span>Yasuko Miyazawa</span>. | All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
