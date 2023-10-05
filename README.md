@@ -36,9 +36,9 @@ Discover Palawan is an immersive travel experience website crafted to showcase t
 
 **Tech Stack:** HTML / CSS / JavaScript / SCSS
 
-➡ [GitHub Repo Here!](https://github.com/yasukomiyazawa/Travel-Agency-Website---Discover-Palawan)
+➡ <a href="https://github.com/yasukomiyazawa/Travel-Agency-Website---Discover-Palawan" target="_blank">GitHub Repo Here!</a>
 
-➡ [Website Link Here!](https://discoverpalawan.netlify.app/)
+➡ <a href="https://discoverpalawan.netlify.app/" target="_blank">Website Link Here!</a>
 
 
 ### 2. Online Grocery Website - Fresh Finds
@@ -47,9 +47,9 @@ Fresh Finds is a user-friendly e-commerce platform designed for online grocery s
 
 **Tech Stack:** HTML / CSS / JavaScript / SCSS
 
-➡ [GitHub Repo Here!](https://github.com/yasukomiyazawa/Online-Grocery-Store-Website---Fresh-Finds)
+➡ <a href="https://github.com/yasukomiyazawa/Online-Grocery-Store-Website---Fresh-Finds" target="_blank">GitHub Repo Here!</a>
 
-➡ [Website Link Here!](https://freshfinds.netlify.app/)
+➡ <a href="https://freshfinds.netlify.app/" target="_blank">Website Link Here!</a>
 
 
 ### 3. Book Searching Website - Bookie
@@ -58,9 +58,9 @@ Bookie is an interactive book search platform with a modern user interface. It a
 
 **Tech Stack:** HTML / CSS / JavaScript / React / Bootstrap
 
-➡ [GitHub Repo Here!](https://github.com/yasukomiyazawa/Book-Searching-Website---Bookie)
+➡ <a href="https://github.com/yasukomiyazawa/Book-Searching-Website---Bookie" target="_blank">GitHub Repo Here!</a>
 
-➡ [Website Link Here!](https://bookie-library.netlify.app/book)
+➡ <a href="https://bookie-library.netlify.app/book" target="_blank">Website Link Here!</a>
 
 
 ### 4. Car Booking Website - Car2Go
@@ -69,9 +69,9 @@ Car2Go is a dynamic car booking platform that offers seamless user experiences. 
 
 **Tech Stack:** HTML / CSS / JavaScript / React / Next.JS / TypeScript / Tailwind
 
-➡ [GitHub Repo Here!](https://github.com/yasukomiyazawa/Car-Booking-Website---Car2Go)
+➡ <a href="https://github.com/yasukomiyazawa/Car-Booking-Website---Car2Go" target="_blank">GitHub Repo Here!</a>
 
-➡ [Website Link Here!](https://car2go.vercel.app/?model=m8&manufacturer=bmw)
+➡ <a href="https://car2go.vercel.app/?model=m8&manufacturer=bmw" target="_blank">Website Link Here!</a>
 
 
 ## Freelance Projects
@@ -82,9 +82,9 @@ Enhanced the online presence of Mama Silog, an online Filipino restaurant, with 
 
 **Tech Stack:** HTML / CSS / JavaScript / React / Next.JS / TypeScript / Tailwind
 
-➡ [GitHub Repo Here!](https://github.com/yasukomiyazawa/Online-Restaurant-Website---Mama-Silog)
+➡ <a href="https://github.com/yasukomiyazawa/Online-Restaurant-Website---Mama-Silog" target="_blank">GitHub Repo Here!</a>
 
-➡ [Website Link Here!](https://mama-silog.vercel.app/)
+➡ <a href="https://mama-silog.vercel.app/" target="_blank">Website Link Here!</a>
 
 
 ## Contact Information
